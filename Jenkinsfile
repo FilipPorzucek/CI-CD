@@ -45,8 +45,6 @@ steps {
 echo "Wdrazam na ${params.SRODOWISKO}..."
 }
 }
-Strona 21/25
-Podstawy Jenkins — Część 2: Jenkins i Git
 stage('Archiwizacja') {
 steps {
 archiveArtifacts artifacts: 'build/**,reports/**',
